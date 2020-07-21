@@ -1,0 +1,2 @@
+mysql> create table user(user_id INT(15) UNSIGNED NOT NULL AUTO_INCREMENT, username VARCHAR(255) NOT NULL, password CHAR(50) NOT NULL, email VARCHAR(200) NOT NULL, PRIMARY KEY (user_id));
+mysql> insert into user(username,password,email,sex,home) values("Lanna","12345","lanna@yahoo.com","F","www.abc.com");

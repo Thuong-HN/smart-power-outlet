@@ -1,0 +1,122 @@
+*{padding: 0;margin: 0}
+body {
+    font-family: arial;
+    font-size: 20px;
+    background-image: url("anh2/background.jpg");
+    margin: 10px;
+}
+.tab {width: 1200; background: #dd2;margin: 10px;}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+.tab {
+    background-color: #4CAF40;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.tab li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.nutdangnhap {
+    float: right;
+    display: block;
+    margin-left:900;
+    background-color: #0ff;
+}
+
+.slide{
+    float: left;
+}
+
+.noidung{
+    font-family: arial;
+    font-size: 18px;
+    float:right;
+    padding: 30px;
+    padding-right: 10px;
+}
+
+/*-- dinh dang cho trang dang ki-------------------------------------------------*/
+.formdangki{
+    margin-left: 30px;
+}
+
+.tentaikhoan{
+    margin-left: 200px;
+    width: 220px;
+    height: 24px;
+}
+
+.matkhau{
+    margin-left: 240px;
+    width: 220px;
+    height: 24px;
+}
+
+.hoten{
+    margin-left: 260px;
+    width: 220px;
+    height: 24px;
+}
+
+.ngaysinh{
+    margin-left: 117px;
+    width: 220px;
+    height: 24px;
+}
+
+.diachi{
+    margin-left: 260px;
+    width: 220px;
+    height: 24px;
+}
+
+.sodienthoai{
+    margin-left: 210px;
+    width: 220px;
+    height: 24px;
+}
+
+
+.tgcapnhat{
+    margin-left: 55px;
+    width: 220px;
+    height: 24px;
+}
+
+.gioitinh{
+    margin-left: 180px;
+    width: 20px;
+    height: 24px;
+}
+
+.tieude_dangki{
+    margin: 20px;
+    margin-left: 250px;
+}
+
+.error_regis{
+    margin-left: 560px;
+    color: red;
+}

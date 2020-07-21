@@ -1,0 +1,194 @@
+*{padding: 0;margin: 0}
+
+body{
+    width: 1360px;
+    height: 1400px;
+}
+
+.tieude1{
+    text-align: center;
+    text-decoration: none;
+    float:right;
+    width: 1360px;
+    height: 100px;
+    background-color: rgb(40,40,40);
+    font-size: 26px;
+    float:left;
+
+}
+.tieude2{
+    text-align: center;
+    text-decoration: none;
+    float:right;
+    width: 1360px;
+    height: 80px;
+    background-color: rgb(228,228,228);
+    font-size: 20px;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    float:left;
+
+}
+
+li {
+    display: block;
+    float:right;
+    margin: 25px;
+}
+
+.logo{
+    float:left;
+    padding-left:20px;
+    width:80px;
+    height:100px;
+    margin:5px;
+}
+
+.logo2{
+    float:left;
+    padding-left:80px;
+}
+
+/********************************************  body    ***************************************/
+.bodyleft{
+    float:left;
+    width: 200px;
+    height:1400px;
+    background-color: rgb(240,240,240);
+}
+
+.body_left_1{
+    float:top;
+    width: 160px;
+    height:280px;
+    margin: 20px;
+}
+
+.body_left_2{
+    float:top;
+    width: 160px;
+    height:280px;
+    margin: 20px;
+}
+
+.body_left_3{
+    float:top;
+    width: 160px;
+    height:280px;
+    margin: 20px;
+}
+
+/* body right */
+.bodyright{
+    float:left;
+    width: 304px;
+    height:1400px;
+    background-color: rgb(240,240,240);
+}
+.tin_nhan_tu_nguoi_su_dung{
+    width: 280px;
+    margin:10px;
+    margin-bottom: 50px;
+    background-color: rgb(255,255,255);
+}
+
+.button_tra_loi{
+    margin-left: 25px;
+}
+
+.button_da_xem{
+    margin-left: 15px;
+}
+
+/* body mid */
+.bodymid{
+    float:left;
+    width: 845px;
+    height:1400px;
+    background-color: rgb(253, 252, 253);
+}
+
+.tin_nhan_tu_he_thong{
+    background-image: url("anh/mid_message.png");
+    background-repeat: no-repeat;
+    margin-top: 20px;
+    margin-left: 50px;
+    padding-top: 30px;
+    padding-left: 10px;
+    width: 800px;
+    height: 160px;
+}
+
+.body_1_1{
+    float:left;
+    margin:15px;
+}
+.body_1_2{
+    float:left;
+    margin:15px;
+    width:500px;
+    height: 100px;
+}
+.body_1_3{
+    float:left;
+    margin:15px;
+    width:500px;
+    height: 100px;
+    margin-left: 100px;
+}
+
+.endpage{
+    margin: 5px;
+    width: 1335px;
+    height: 600px;
+}
+
+li a:hover:not(.active) {
+    background-color: rgb(0, 202, 0);
+}
+
+.abc {
+    widht : 400px;
+    height : 220px;
+    float: left;
+    margin: 10px;
+    background-image: url("anh/background_info.png");
+}
+
+.chitiet{
+    padding-left: 10px;
+}
+
+.caution{
+    padding-left: 20px;
+    padding-top: 30px;
+}
+
+textarea {
+    background-color: transparent;
+    font-size: 16px;
+    margin-left: 18px;
+    resize: none;
+    border: none;
+}
+
+/****************************** danh cho chart*****************************/
+.loi_khuyen{
+    margin-left: 25px;
+    margin-bottom: 25px;
+    width: 1200px;
+    height:350px;
+    background-color: rgb(241, 241, 241); 
+    box-shadow: 0 2px 4px 0;
+}
+
+.loi_khuyen .button_tro_ve{
+    margin-left: 25px;
+    margin-top: 20px;
+    height: 30px;
+}
+
+.loi_khuyen .button_tra_loi{
+    margin-left: 25px;
+    margin-top: 20px;
+    height: 30px;
+}
